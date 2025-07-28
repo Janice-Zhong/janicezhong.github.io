@@ -1,0 +1,10 @@
+---
+layout: single
+title: "Research Experience"
+permalink: /researchexperience/
+---
+
+### Inspection Game lesion study |University of Birmingham<br>Jun 2024 – Sept 2024
+During my internship, I worked on two main projects: a **lesion research inspection game** and a **Rock-Paper-Scissors game designed with Jspsych**.<br>
+An inspection game is a strategic scenario where one player (the inspector) tries to monitor another player (the inspected) as they engage in undesirable or hidden actions, balancing the costs of inspection with the probability of detecting non-compliance. **Our goal was to determine whether mPFC is an essential brain region in decision-making.** My primary contribution to the lesion study was using models to fit different subjects. I used a variation of Reinforcement Learning (RL), Fictitious Play and Influence Play mixed with Drift Diffusion Model (DDM) to examine participants’ decision-making behavior using R. In a reinforcement learning model, the subject makes decisions solely based on past rewards to maximize the current reward. The Fictitious Play model means that the subject also considers the opponent's choices in previous trials. In the Influence Play model, the subject considers not only the opponent's past choices but also how their own previous choices may have influenced the opponent. I also experimented with variations of these models, such as adjusting the assumption about the number of previous trials that the subject considers. Although I couldn't completely explain why non-decision times did not vary, I discovered that the two groups had different response times. I hypothesized that the reason could be attributed to the lack of age matching among the participants. <br>
+The RPS project involved computer bots interacting with human participants using various strategies, including random choice and varied levels of the **theory of mind**. I converted the original bots’ codes from MATLAB to Java to better fit into JsPsych. It was really a tough process due to the complexity of factors in MATLAB under a time contraint. I also added UI design to complete the experiment.
